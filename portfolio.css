@@ -1,1 +1,39 @@
-/* un commentaire
+.portfolio-images-container img{
+    width: 260px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.portfolio-menu{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.portfolio-menu-container{
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.portfolio-menu li a{
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.portfolio-menu li:first-child{
+    margin-right: 70px;
+}
+
+.portfolio-menu li a{
+    font-size: 19px;
+    color: black;
+    font-weight: bold;
+}
+.portfolio-images-container{
+}
+
+#journal{
+    padding-right: 0;
+}
