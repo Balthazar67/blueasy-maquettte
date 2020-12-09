@@ -1,1 +1,2 @@
-# blueasy-maquettte
+# blueasy
+projet de base blueasy
