@@ -1,8 +1,21 @@
-.portfolio-images-container img{
+.portfolio-images-container div{
     width: 260px;
     height: 200px;
     margin: 10px;
+    overflow: hidden;
+}
+
+
+.portfolio-images-container img{
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    transition: transform 1.7s;
+}
+
+.portfolio-images-container img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .portfolio-menu{
@@ -15,6 +28,7 @@
     justify-content: space-between;
     align-content: center;
     align-items: center;
+    padding: 0 15px;
 }
 
 .portfolio-menu li a{
@@ -32,6 +46,7 @@
     font-weight: bold;
 }
 .portfolio-images-container{
+    padding: 0 10px;
 }
 
 #journal{

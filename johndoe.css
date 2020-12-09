@@ -1,0 +1,42 @@
+.johndoe-container{
+   background-image: url(images/whois.jpg);
+   position: relative;
+   height: auto;
+   background-position: center;
+   background-size: cover;
+   overflow: hidden;
+}
+
+.johndoe-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(79, 155, 225, 0.51);
+ }
+
+ .jonhdoe-subcontainer{
+     color: white;
+     position: relative;
+ }
+
+ .johndoe-up{
+     height: 200px;
+     align-content: center;
+     padding: 0 15px;
+
+ }
+
+ .johndoe-down{
+    height: 300px;
+}
+
+.johndoe-logos img{
+    padding: 10px;
+    border: solid white;
+    width: 60px;
+    height: 54px;
+    object-fit: contain;
+    margin: 5px;
+}
